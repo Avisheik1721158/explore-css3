@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Photo album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 301px;
+            height: 166px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+        }
+
+
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-detail {
+            display: none;
+
+            position: absolute;
+            width: 301px;
+            height: 166px;
+            top: 0;
+
+        }
+
+        .photo-detail h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-detail p {
+            color: white;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(199, 180, 134, 0.7);
+        }
+
+        .photo-frame:hover .photo img {
+            transform: scale(1.5) skew(-30deg);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+<h1>
+    My photo album
+</h1>
+<section>
+    <h3>
+        Tiger album
+    </h3>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Tiger.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>
+                        Tiger mama candid
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio et porro dolorum
+                        placeat deleniti velit accusamus. Qui, totam, ut dignissimos similique accusantium voluptas
+                        natus fuga tenetur, laboriosam voluptates nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Tiger.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>
+                        Tiger mama candid
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio et porro dolorum
+                        placeat deleniti velit accusamus. Qui, totam, ut dignissimos similique accusantium voluptas
+                        natus fuga tenetur, laboriosam voluptates nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Tiger.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>
+                        Tiger mama candid
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio et porro dolorum
+                        placeat deleniti velit accusamus. Qui, totam, ut dignissimos similique accusantium voluptas
+                        natus fuga tenetur, laboriosam voluptates nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Tiger.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>
+                        Tiger mama candid
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio et porro dolorum
+                        placeat deleniti velit accusamus. Qui, totam, ut dignissimos similique accusantium voluptas
+                        natus fuga tenetur, laboriosam voluptates nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Tiger.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>
+                        Tiger mama candid
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio et porro dolorum
+                        placeat deleniti velit accusamus. Qui, totam, ut dignissimos similique accusantium voluptas
+                        natus fuga tenetur, laboriosam voluptates nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Tiger.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>
+                        Tiger mama candid
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio et porro dolorum
+                        placeat deleniti velit accusamus. Qui, totam, ut dignissimos similique accusantium voluptas
+                        natus fuga tenetur, laboriosam voluptates nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/Tiger.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>
+                        Tiger mama candid
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio et porro dolorum
+                        placeat deleniti velit accusamus. Qui, totam, ut dignissimos similique accusantium voluptas
+                        natus fuga tenetur, laboriosam voluptates nostrum!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<body>
+
+</body>
+
+</html>
